@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Donovan\\Desktop\\GroupProject3\\GroupProject3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F4D12BC-018B-ADA5-EE64-9BEB7998F3C4}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\groupproject3\\groupproject3\\assets\\scripts\\thirdpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F4D12BC-018B-ADA5-EE64-9BEB7998F3C4}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\groupproject3\\groupproject3\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F4D12BC-018B-ADA5-EE64-9BEB7998F3C4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F4D12BC-018B-ADA5-EE64-9BEB7998F3C4}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\GroupProject3\\GroupProject3\\assets\\scripts\\thirdpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F4D12BC-018B-ADA5-EE64-9BEB7998F3C4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\thirdpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,15 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\GroupProject3\\GroupProject3\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\Donovan\\Desktop\\GroupProject3\\GroupProject3\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAmwHcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T01:54:47.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ThirdPersonCamera.cs",
               "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\GroupProject3\\GroupProject3\\Assets\\Scripts\\ThirdPersonCamera.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ThirdPersonCamera.cs",
               "ToolTip": "C:\\Users\\Donovan\\Desktop\\GroupProject3\\GroupProject3\\Assets\\Scripts\\ThirdPersonCamera.cs",
               "RelativeToolTip": "Assets\\Scripts\\ThirdPersonCamera.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAMwBEAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:55:22.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T23:55:22.417Z"
             }
           ]
         }
