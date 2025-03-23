@@ -17,12 +17,12 @@ public class Swinging : MonoBehaviour
     private Vector3 swingPoint;
     private SpringJoint joint;
 
-    private Vector3 currentGrapplePosition;
+    [Header("Prediction")]
+    public RaycastHit predictionHit;
+    public float predictionSphereCastRadius;
+    public Transform predictionPoint;
 
-    void Start()
-    {
-        
-    }
+    private Vector3 currentGrapplePosition;
 
     void Update()
     {
@@ -34,6 +34,8 @@ public class Swinging : MonoBehaviour
         {
             StopSwing();
         }
+
+        CheckForSwingPoints();
     }
 
     private void LateUpdate()
@@ -43,26 +45,27 @@ public class Swinging : MonoBehaviour
 
     void StartSwing()
     {
-        RaycastHit hit;
-        if(Physics.Raycast(orientation.position, orientation.forward, out hit, maxSwingDistance, whatIsGrappleable))
+        if(predictionHit.point == Vector3.zero)
         {
-            swingPoint = hit.point;
-            joint = player.gameObject.AddComponent<SpringJoint>();
-            joint.autoConfigureConnectedAnchor = false;
-            joint.connectedAnchor = swingPoint;
-
-            float distanceFromPoint = Vector3.Distance(player.position, swingPoint);
-
-            joint.maxDistance = distanceFromPoint * 0.8f;
-            joint.minDistance = distanceFromPoint * 0.25f;
-
-            joint.spring = 4.5f;
-            joint.damper = 7f;
-            joint.massScale = 4.5f;
-
-            lr.positionCount = 2;
-            currentGrapplePosition = hand.position;
+            return;
         }
+
+        swingPoint = predictionHit.point;
+        joint = player.gameObject.AddComponent<SpringJoint>();
+        joint.autoConfigureConnectedAnchor = false;
+        joint.connectedAnchor = swingPoint;
+
+        float distanceFromPoint = Vector3.Distance(player.position, swingPoint);
+
+        joint.maxDistance = distanceFromPoint * 0.8f;
+        joint.minDistance = distanceFromPoint * 0.25f;
+
+        joint.spring = 4.5f;
+        joint.damper = 7f;
+        joint.massScale = 4.5f;
+
+        lr.positionCount = 2;
+        currentGrapplePosition = hand.position;
     }
 
     void StopSwing()
@@ -82,5 +85,46 @@ public class Swinging : MonoBehaviour
 
         lr.SetPosition(0, hand.position);
         lr.SetPosition(1, swingPoint);
+    }
+
+    private void CheckForSwingPoints()
+    {
+        if(joint != null)
+        {
+            return;
+        }
+
+        RaycastHit sphereCastHit;
+        Physics.SphereCast(cam.position, predictionSphereCastRadius, cam.forward, out sphereCastHit, maxSwingDistance, whatIsGrappleable);
+
+        RaycastHit raycastHit;
+        Physics.Raycast(cam.position, cam.forward, out raycastHit, maxSwingDistance, whatIsGrappleable);
+
+        Vector3 realHitPoint;
+
+        if(raycastHit.point != Vector3.zero)
+        {
+            realHitPoint = raycastHit.point;
+        }
+        else if(sphereCastHit.point != Vector3.zero)
+        {
+            realHitPoint = sphereCastHit.point;
+        }
+        else
+        {
+            realHitPoint = Vector3.zero;
+        }
+
+        if(realHitPoint != Vector3.zero)
+        {
+            predictionPoint.gameObject.SetActive(true);
+            predictionPoint.position = realHitPoint;
+        }
+        else
+        {
+            predictionPoint.gameObject.SetActive(false);
+        }
+
+        predictionHit = raycastHit.point == Vector3.zero ? sphereCastHit : raycastHit;
     }
 }

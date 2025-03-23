@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638782587666094171
+      ticks: 638783586124281827
     m_Hash: 53072301
   m_LockFileStatus:
     m_FilePath: C:/Users/Donovan/Desktop/GroupProject3/GroupProject3/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638782587666094171
+      ticks: 638783586124281827
     m_Hash: 4127089245
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -530,6 +530,7 @@ m_ResolvedPackages:
     - 1.12.0
     - 1.13.0
     - 1.13.1
+    - 1.14.0
     compatible:
     - 1.7.0
     - 1.8.0-pre.1
@@ -545,6 +546,7 @@ m_ResolvedPackages:
     - 1.12.0
     - 1.13.0
     - 1.13.1
+    - 1.14.0
     recommended: 1.7.0
     deprecated: []
   dependencies:
@@ -769,16 +771,19 @@ m_ResolvedPackages:
     - 5.2.0
     - 5.2.2
     - 5.2.3
+    - 5.2.4
     - 6.0.1-pre.1
     - 6.0.1-pre.2
     - 6.0.1
     - 6.0.2
     - 6.0.3
     - 6.0.4
+    - 6.0.5
     compatible:
     - 5.2.2
     - 5.2.3
-    recommended: 5.2.3
+    - 5.2.4
+    recommended: 5.2.4
     deprecated: []
   dependencies:
   - name: com.unity.modules.imgui
@@ -3544,11 +3549,13 @@ m_ResolvedPackages:
     - 3.0.28
     - 3.0.31
     - 3.0.34
+    - 3.0.35
     compatible:
     - 3.0.28
     - 3.0.31
     - 3.0.34
-    recommended: 3.0.34
+    - 3.0.35
+    recommended: 3.0.35
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
