@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Movement")]
     private float moveSpeed;
     public float walkSpeed;
+    public float wallRunSpeed;
 
     public float groundDrag;
 
@@ -43,11 +44,13 @@ public class PlayerMovement : MonoBehaviour
 
     public MovementState state;
 
+    public bool wallRunning;
+
     public enum MovementState
     {
         walking,
         sprinting,
-        crouching,
+        wallrunning,
         air
     }
 
@@ -95,6 +98,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void StateHandler()
     {
+        if (wallRunning)
+        {
+            state = MovementState.wallrunning;
+            moveSpeed = wallRunSpeed;
+        }
+
         if (grounded)
         {
             state = MovementState.walking;

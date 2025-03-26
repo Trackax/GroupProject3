@@ -367,6 +367,7 @@
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/Swinging.cs"
 "Assets/Scripts/ThirdPersonCamera.cs"
+"Assets/Scripts/WallRunningJumping.cs"
 -langversion:9.0
 /deterministic
 /optimize+
