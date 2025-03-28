@@ -82,21 +82,6 @@ public class WallRunningJumping : MonoBehaviour
 
         if ((wallLeft || wallRight) && verticalInput > 0 && AboveGround() && !exitingWall)
         {
-            if (!pm.wallRunning)
-            {
-                StartWallRun();
-            }
-            if (wallRunTimer > 0)
-            { 
-                wallRunTimer -= Time.deltaTime; 
-            }
-
-            if (wallRunTimer <= 0 && pm.wallRunning)
-            {
-                exitingWall = true;
-                exitWallTimer = exitWallTime;
-            }
-
             if (Input.GetKeyDown(jumpKey))
             {
                 WallJump();
