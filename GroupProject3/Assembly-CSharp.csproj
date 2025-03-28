@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\WallRunningJumping.cs" />
     <Compile Include="Assets\Scripts\Swinging.cs" />
     <Compile Include="Assets\Scripts\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\Scripts\Grapple.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>

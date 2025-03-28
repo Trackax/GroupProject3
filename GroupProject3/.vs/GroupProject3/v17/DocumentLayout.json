@@ -3,19 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Donovan\\Desktop\\GroupProject3\\GroupProject3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F4D12BC-018B-ADA5-EE64-9BEB7998F3C4}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\groupproject3\\groupproject3\\assets\\scripts\\wallrunningjumping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F4D12BC-018B-ADA5-EE64-9BEB7998F3C4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wallrunningjumping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F4D12BC-018B-ADA5-EE64-9BEB7998F3C4}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\groupproject3\\groupproject3\\assets\\scripts\\grapple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F4D12BC-018B-ADA5-EE64-9BEB7998F3C4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\grapple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F4D12BC-018B-ADA5-EE64-9BEB7998F3C4}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\GroupProject3\\GroupProject3\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F4D12BC-018B-ADA5-EE64-9BEB7998F3C4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F4D12BC-018B-ADA5-EE64-9BEB7998F3C4}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\GroupProject3\\GroupProject3\\assets\\scripts\\thirdpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F4D12BC-018B-ADA5-EE64-9BEB7998F3C4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\thirdpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F4D12BC-018B-ADA5-EE64-9BEB7998F3C4}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\GroupProject3\\GroupProject3\\assets\\scripts\\swinging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F4D12BC-018B-ADA5-EE64-9BEB7998F3C4}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\groupproject3\\groupproject3\\assets\\scripts\\swinging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F4D12BC-018B-ADA5-EE64-9BEB7998F3C4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\swinging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,56 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WallRunningJumping.cs",
-              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\GroupProject3\\GroupProject3\\Assets\\Scripts\\WallRunningJumping.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\WallRunningJumping.cs",
-              "ToolTip": "C:\\Users\\Donovan\\Desktop\\GroupProject3\\GroupProject3\\Assets\\Scripts\\WallRunningJumping.cs",
-              "RelativeToolTip": "Assets\\Scripts\\WallRunningJumping.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T03:23:12.863Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Swinging.cs",
               "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\GroupProject3\\GroupProject3\\Assets\\Scripts\\Swinging.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Swinging.cs",
               "ToolTip": "C:\\Users\\Donovan\\Desktop\\GroupProject3\\GroupProject3\\Assets\\Scripts\\Swinging.cs",
               "RelativeToolTip": "Assets\\Scripts\\Swinging.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAIBZwFUAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwDQAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T19:42:07.697Z"
+              "WhenOpened": "2025-03-28T02:55:22.236Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\GroupProject3\\GroupProject3\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\Donovan\\Desktop\\GroupProject3\\GroupProject3\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAcwGcAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Grapple.cs",
+              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\GroupProject3\\GroupProject3\\Assets\\Scripts\\Grapple.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Grapple.cs",
+              "ToolTip": "C:\\Users\\Donovan\\Desktop\\GroupProject3\\GroupProject3\\Assets\\Scripts\\Grapple.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Grapple.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAowH0AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T01:54:47.128Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ThirdPersonCamera.cs",
-              "DocumentMoniker": "C:\\Users\\Donovan\\Desktop\\GroupProject3\\GroupProject3\\Assets\\Scripts\\ThirdPersonCamera.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ThirdPersonCamera.cs",
-              "ToolTip": "C:\\Users\\Donovan\\Desktop\\GroupProject3\\GroupProject3\\Assets\\Scripts\\ThirdPersonCamera.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ThirdPersonCamera.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwDAAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T23:55:22.417Z"
+              "WhenOpened": "2025-03-28T01:54:34.148Z",
+              "EditorCaption": ""
             }
           ]
         }
